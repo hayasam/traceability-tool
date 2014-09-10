@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TraceLinks>
+    <TraceLink>
+        <artifact>UC01-FB: Registrar Documento para Análise</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA01: O ator informa que o documento para análise é um encaminhamento do Ministério Público</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA02: O ator informa que o documento para análise é um flagrante</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA03: O ator marca o documento para análise como sigiloso</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA04: O ator marca o documento para análise como segredo de justiça</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA05: O ator deseja cadastrar uma conduta</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA05: O ator deseja cadastrar uma conduta</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC11</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA06: O ator deseja cadastrar um envolvimento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA06: O ator deseja cadastrar um envolvimento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC13</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA06: O ator deseja cadastrar um envolvimento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA07: O ator deseja cadastrar um envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA07: O ator deseja cadastrar um envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA07: O ator deseja cadastrar um envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC13</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FA07: O ator deseja cadastrar um envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FE01: O ator informa um número de protocolo inexistente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FE02: O ator não informa um número de protocolo.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FE03: O ator não informa o resumo do fato.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC01-FE04: O ator informa um número de CEP inválido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC01</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FB: Analisar documento enviado para análise</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FB: Analisar documento enviado para análise</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA01-A: O ator cadastra condutas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA01-A: O ator cadastra condutas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC11</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA01-A: O ator cadastra condutas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA01-B: O ator edita condutas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA01-B: O ator edita condutas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA01-C: O ator exclui condutas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA01-C: O ator exclui condutas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA02: Não existe nenhuma conduta cadastrada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA02: Não existe nenhuma conduta cadastrada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA03-A: O ator cadastra envolvimentos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA03-A: O ator cadastra envolvimentos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC13</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA03-A: O ator cadastra envolvimentos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA03-B: O ator edita envolvimentos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA03-B: O ator edita envolvimentos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA03-B: O ator edita envolvimentos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC18</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA03-C: O ator exclui envolvimentos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA03-C: O ator exclui envolvimentos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA04: O ator informa que o crime está prescrito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA04: O ator informa que o crime está prescrito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA05: O ator informa que o crime não é de competência da PF</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA05: O ator informa que o crime não é de competência da PF</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA06: O ator deseja escolher manualmente outra unidade</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA06: O ator deseja escolher manualmente outra unidade</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA07: O ator é parecerista da unidade.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA07: O ator é parecerista da unidade.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA08: O ator informa que o documento é do tipo registro especial.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA08: O ator informa que o documento é do tipo registro especial.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA09: O ator marca o documento como sigiloso</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA09: O ator marca o documento como sigiloso</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA10: O ator marca o documento como segredo de justiça</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC02</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC02-FA10: O ator marca o documento como segredo de justiça</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FB: Distribuir Notícia-Crime</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC03</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FA01: O ator seleciona a opção de distribuir o caso para Unidade</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC03</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FA02-A: O sistema não apresenta sugestões de distribuição</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC03</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FA02-B: O sistema não apresenta sugestões de distribuição</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC03</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FA02-B: O sistema não apresenta sugestões de distribuição</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC23</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FA03-A: O distribuidor opta por uma distribuição diferente da sugerida pelo sistema</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC03</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FA03-A: O distribuidor opta por uma distribuição diferente da sugerida pelo sistema</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FA03-B: O distribuidor opta por uma distribuição diferente da sugerida pelo sistema</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC03</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FA03-B: O distribuidor opta por uma distribuição diferente da sugerida pelo sistema</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC23</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FE01-A: O usuário não forneceu dados para a justificativa de distribuição</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC03</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FE01-A: O usuário não forneceu dados para a justificativa de distribuição</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FE01-B: O usuário não forneceu dados para a justificativa de distribuição</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC03</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC03-FE01-B: O usuário não forneceu dados para a justificativa de distribuição</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC23</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FB: Instaurar Inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC04</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FB: Instaurar Inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FB: Instaurar Inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA01: A peça do tipo portaria já foi criada anteriormente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC04</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA01: A peça do tipo portaria já foi criada anteriormente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA02: O ator não deseja criar nova tarefa relacionada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC04</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA02: O ator não deseja criar nova tarefa relacionada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA02: O ator não deseja criar nova tarefa relacionada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA03: O ator não criou nenhuma tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC04</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA03: O ator não criou nenhuma tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA03: O ator não criou nenhuma tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA04-A: O ator não confirma que deseja instaurar o inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC04</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA04-A: O ator não confirma que deseja instaurar o inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA04-A: O ator não confirma que deseja instaurar o inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA04-B: O ator não confirma que deseja instaurar o inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC04</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA04-B: O ator não confirma que deseja instaurar o inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA04-B: O ator não confirma que deseja instaurar o inquérito</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA05: Ao responder tarefa de Instaurar Inquérito o ator clica em “Solicitar Reconsideração”</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC04</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA05: Ao responder tarefa de Instaurar Inquérito o ator clica em “Solicitar Reconsideração”</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC04-FA05: Ao responder tarefa de Instaurar Inquérito o ator clica em “Solicitar Reconsideração”</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FB: Criar Tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA01: O ator escolhe o tipo de tarefa Arbitrar Fiança.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA02: O ator escolhe o tipo de tarefa Arrecadar Material.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA03: O ator escolhe o tipo de tarefa Ato Presencial.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA03: O ator escolhe o tipo de tarefa Ato Presencial.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC29</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA04: O ator escolhe o tipo de tarefa Indiciamento.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA05: O ator escolhe o tipo de tarefa Intimar, Produzir Boletim de Vida Pregr</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-A: O ator não aceita a sugestão de responsável e escolhe manualmente.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-A: O ator não aceita a sugestão de responsável e escolhe manualmente.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-A: O ator não aceita a sugestão de responsável e escolhe manualmente.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC25</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-B: O ator não aceita a sugestão de responsável e escolhe manualment</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-B: O ator não aceita a sugestão de responsável e escolhe manualment</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-B: O ator não aceita a sugestão de responsável e escolhe manualment</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC25</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-C: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-C: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-C: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC25</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-D: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-D: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-D: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC25</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-E: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-E: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA06-E: O ator não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC25</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FA07: FIXME O ator não deseja cadastrar mais tarefas.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC05-FE01: O ator não informou dados obrigatórios ou informou dados incompletos ou inválidos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FB: Produzir Relatório Final</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FB: Produzir Relatório Final</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FA01: A tarefa a ser concluída está vencida</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FA01: A tarefa a ser concluída está vencida</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FA02-A: Concluir Sem Sucesso.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FA02-B: Concluir Sem Sucesso</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FA02-B: Concluir Sem Sucesso</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FA03: Rejeitar Tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE01-A: O ator não gerou a peça Relatório Final</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE01-A: O ator não gerou a peça Relatório Final</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE01-B: O ator não gerou a peça Relatório Final</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE01-B: O ator não gerou a peça Relatório Final</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE02-A O ator não informou uma justificativa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE02-A O ator não informou uma justificativa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE02-B: O ator não informou uma justificativa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE02-C: O ator não informou uma justificativa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE02-C: O ator não informou uma justificativa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC08</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC09-FE02-D: O ator não informou uma justificativa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC09</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FB: Cadastrar Pessoa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA01: O ator deseja realizar o cadastro de Pessoa Jurídica</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA02: O ator deseja realizar o cadastro de Advogado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA03: O ator não possui dados sobre identificador único do envolvido.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA04: O ator inseriu dados de um envolvido já cadastrado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA05: O ator deseja duplicar os dados do envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA06: O ator não quer aproveitar os dados do outro envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA07-A: O sistema deseja alterar os dados sobre a pessoa que está sendo cadastrada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA07-B: O sistema deseja alterar os dados sobre a pessoa que está sendo cadastrada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA07-C: O sistema deseja alterar os dados sobre a pessoa que está sendo cadastrada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA07-D: O sistema deseja alterar os dados sobre a pessoa que está sendo cadastrada</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA08: O ator seleciona a opção Relacionar Empresas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FA08: O ator seleciona a opção Relacionar Empresas</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FE01-A: O ator informou um número inválido de CPF.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FE01-B: O ator informou um número inválido de CPF.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FE02-A: O sistema da base de dados da Receita Federal não possui dados para</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FE02-B: O sistema da base de dados da Receita Federal não possui dados para o CPF informado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FE02-C: O sistema da base de dados da Receita Federal não possui dados para o CNPJ informado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FE02-D: O sistema da base de dados da Receita Federal não possui dados para</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FE02-E: O sistema da base de dados da Receita Federal não possui dados para o CPF informado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC12-FE02-F: O sistema da base de dados da Receita Federal não possui dados para</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FB: Cadastrar Envolvimento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC13</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FB: Cadastrar Envolvimento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FA01: O envolvido não está cadastrado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC12</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FA01: O envolvido não está cadastrado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC13</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FA01: O envolvido não está cadastrado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FA0:  O ator deseja editar os dados do envolvido selecionado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC13</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FA0:  O ator deseja editar os dados do envolvido selecionado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FE01: O ator não seleciona um tipo de envolvimento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC13</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FE01: O ator não seleciona um tipo de envolvimento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FE02: O ator não seleciona um envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC13</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC13-FE02: O ator não seleciona um envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC16-FB: Criar Sub-Tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC05</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC16-FB: Criar Sub-Tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC16</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC20-FB: Buscar Envolvido</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC20-FA01: O ator seleciona, para a busca, o tipo de envolvimento Advogado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC20-FA02: O ator seleciona, para a busca, o tipo de envolvimento Pessoa Jurídica</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC20</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC21-FB: Detalhar Envolvimento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC21</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC23-FB-A: Selecionar Delegado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC23</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC23-FB-B: Selecionar Delegado</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC23</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC24-FB: Selecionar Delegacia</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>20140408-20:39:51 UC24-FB: Selecionar Delegacia</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC25-FB: Selecionar Policial</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC25</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC31-FB: Cancelar Ato Presencial</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC31</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC31-FA01: O ator não confirma o cancelamento</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC31</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FB: Intimar</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC32</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FA01: O usuário seleciona a opção de fazer upload de peça.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC32</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FA02: O usuário não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC24</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FA02: O usuário não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC25</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FA02: O usuário não aceita a sugestão de responsável e escolhe manualmente</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC32</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FA03: O ator deseja cadastrar mais de uma tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC32</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FE01-A: O ator forneceu dados inválidos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC32</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FE01-B: O ator forneceu dados inválidos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC32</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FE01-C: O ator forneceu dados incompletos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC32</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC32-FE01-D: O ator forneceu dados incompletos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC32</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC34-FA01: O ator deseja fazer upload de uma peça</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC34</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC34-FE01-A: O ator forneceu dados inválidos</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC34</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC34-FE01-B: O ator forneceu dados inválidos</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC34</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC34-FE01-C: O ator forneceu dados incompletos</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC34</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC34-FE01-D: O ator forneceu dados incompletos</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC34</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC60-FB: Cadastrar Roteiro de Investigação.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC60</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC60-FE01-A: O ator interno não informa dados obrigatórios.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC60</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC60-FE01-B: O ator interno não informa dados obrigatórios.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC60</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC62-FB: Visualizar Peças do Procedimento.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC62</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC64-FB: Configurar Dados de Exibição em Ver Tarefa</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC64</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC65-FB: Avocar ou Redistribuir Caso</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC65</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC65-FA01: O ator seleciona a opção &quot;Redistribuir&quot;</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC65</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC65-FA02: O ator é o responsável pelo  caso.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC65</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC65-FE01-B: O ator interno não informa uma justificativa.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC65</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC65-FE02-A: O ator não seleciona um policial para receber as tarefas e casos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC65</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+    <TraceLink>
+        <artifact>UC65-FE02-B: O ator não seleciona um policial para receber as tarefas e casos.</artifact>
+        <artifactType>Test_Case</artifactType>
+        <requirement>UC65</requirement>
+        <semantic>Overlap</semantic>
+    </TraceLink>
+</TraceLinks>

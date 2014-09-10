@@ -1,0 +1,80 @@
+
+requirement UC02;
+requirement UC03;
+requirement UC04;
+requirement UC05;
+requirement UC06;
+
+type Source_Code;
+type Test_Case;
+type Use_Case;
+
+semantic Overlap;
+semantic Dependency;
+semantic Realization;
+semantic Conflict;
+
+view_as graph;
+view_as tree;
+view_as plain_text;
+view_as node_tree;
+
+domain Test = { UC02 };
+domain Test = { UC02, UC03 };
+domain Test = { Source_Code, Use_Case };
+domain Test = { UC02, UC05, UC06, UC07 };
+domain Test = { Overlap, UC07, UC08 };
+
+query requirementAll () {
+	result *;
+}
+
+query requirementQuery (requirement rt) {
+	result rt;
+}
+
+query domainQuery (domain dm) {
+	result dm;
+}
+
+query semanticQuery (semantic st) {
+	result st;
+}
+
+query typeQuery (type t) {
+	result t;
+}
+
+query artifactQuery (artifact a) {
+	result a;
+}
+
+query requirementAndQuery(requirement r1, requirement r2) {
+	result r1 and r2;
+}
+
+query requirementORQuery(requirement r1, requirement r2) {
+	result r1 or r2;
+}
+
+query requirementAndNotQuery(requirement r1, requirement r2) {
+	result not r1 and r2;
+}
+
+query requirementORArtifactQuery(requirement r1, artifact a1){
+	result a1 or r1;
+}
+
+
+query requirementAndArtifactQuery(requirement r1, artifact a1, artifact a2){
+	result a1 and (a2 or a3) and a1;
+}
+
+query parenthesisQuery (requirement r1) {
+	result (r1);
+}
+
+query requirementAndArtifactQuery(requirement r1, artifact a1, artifact a2){
+	result (r1 and a1) and (r1 and a2);
+}
+

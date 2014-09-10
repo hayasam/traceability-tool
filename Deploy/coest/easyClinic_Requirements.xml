@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<artifacts_collection>
+  <collection_info>
+    <id>UC</id>
+    <name>UC</name>
+    <version>1.1</version>
+    <description>Use cases</description>
+  </collection_info>
+  <artifacts>
+    <artifact>
+      <id>1</id>
+      <content>Input anagrafica laboratory</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>10</id>
+      <content>Delete visit</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>11</id>
+      <content>Input examination</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>12</id>
+      <content>Changing examination</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>13</id>
+      <content>Delete examination</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>14</id>
+      <content>Book visit</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>15</id>
+      <content>Changing reservation</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>16</id>
+      <content>Cancel Reservation</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>17</id>
+      <content>Changing anagrafica patient</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>18</id>
+      <content>input anagrafica patient</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>19</id>
+      <content>Access section patient</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>2</id>
+      <content>Changing anagrafica laboratory</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>20</id>
+      <content>Validation patient</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>21</id>
+      <content>Show clinic folder</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>22</id>
+      <content>Show Reservations</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>23</id>
+      <content>Show anagrafica</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>24</id>
+      <content>Access Box Tower</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>25</id>
+      <content>Validation patient</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>26</id>
+      <content>Report reservations</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>27</id>
+      <content>Report visits</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>28</id>
+      <content>Report examinations</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>29</id>
+      <content>The average time of waiting</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>3</id>
+      <content>Delete anagrafica laboratory</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>30</id>
+      <content>Plans reservations</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>4</id>
+      <content>Inserting anagrafica doctor</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>5</id>
+      <content>Changing  doctor anagrafica</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>6</id>
+      <content>Delete anagrafica doctor</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>7</id>
+      <content>Validation operator</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>8</id>
+      <content>Record visit</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>9</id>
+      <content>Changing visit</content>
+      <parent_id />
+    </artifact>
+  </artifacts>
+</artifacts_collection>

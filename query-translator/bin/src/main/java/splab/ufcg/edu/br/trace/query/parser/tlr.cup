@@ -1,0 +1,237 @@
+import java_cup.runtime.*;
+import java.util.LinkedList;
+import java.util.List;
+import splab.ufcg.edu.br.trace.query.controller.*;
+import splab.ufcg.edu.br.trace.entities.*;
+import splab.ufcg.edu.br.trace.query.*;
+
+/* Parser code to change the way the parser reports errors (include
+   line and column number of the error). */
+parser code {:
+    
+    
+    
+
+    public void report_error(String message, Object info) {
+   
+        /* Create a StringBuilder called 'm' with the string 'Error' in it. */
+        StringBuilder m = new StringBuilder("Error");
+   
+        /* Check if the information passed to the method is the same
+           type as the type java_cup.runtime.Symbol. */
+        if (info != null && (info instanceof java_cup.runtime.Symbol)) {
+            
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
+   
+            /* Check if the line number in the input is greater or
+               equal to zero. */
+            if (s.left >= 0) {                
+                /* Add to the end of the StringBuilder error message
+                   the line number of the error in the input. */
+                m.append(" in line "+(s.left+1));   
+                /* Check if the column number in the input is greater
+                   or equal to zero. */
+                if (s.right >= 0)                    
+                    /* Add to the end of the StringBuilder error message
+                       the column number of the error in the input. */
+                    m.append(", column "+(s.right+1));
+            }
+        }
+   
+        
+        m.append(" : " + message );
+        
+        System.err.println(m);
+    }
+   
+    
+
+    public void report_fatal_error(String message, Object info) {
+        report_error(message, info);
+        System.exit(1);
+    }
+:};
+
+
+
+/* ------------------------------------Declaration of Terminals and Non Terminals Section----------------------------------- */
+   
+/* Terminals (tokens returned by the scanner).  
+
+   Terminals that have no value are listed first and then terminals
+   that do have an value are listed 
+
+*/ 
+
+terminal LBRACKET, RBRACKET;
+terminal LCOL ,RCOL;
+terminal LPAREN ,RPAREN;
+terminal PIPE, DOUBLECOLON, DOUBLEDOT, COLON, DOT, COMMA, SEMICOLON, ARROW, AT;
+
+
+terminal String STRING, NAME, NUMBER;
+terminal String GE, LE, NE, EQ, GT, LT, MINUS, PLUS, DIV, TIMES, AND, OR, NOT;
+terminal String REQUIREMENT, SEMANTIC, TYPE, QUERY, VIEW, ARTIFACT, RESULT, DOMAIN;
+
+terminal java.lang.String STRING_LITERAL;
+
+
+
+
+/* Non terminals used in the grammar section.  */
+
+non terminal  tlrLanguage, 
+              tlrDeclaration, 
+              requirementsExpr, 
+              typesExpr, 
+              artifactExpr, 
+              semanticExpr, 
+              viewExpr, 
+              domainExpr;
+
+
+
+non terminal requirementsDescription, 
+             artifactDeclaration,
+             domainArtifactList, 
+             multipleArtifacts, 
+             unaryArtifact;
+
+
+
+non terminal TraceQuery queryExpr;
+
+non terminal QueryParameterList queryParametersExpr;
+non terminal QueryParameterList multipleParameter;
+non terminal QueryParameter unaryParameter;
+non terminal QueryParameterTypeEnum paramType; 
+
+non terminal QueryExpression queryResultExpr;
+
+
+non terminal QueryExpression queryExpression;
+non terminal SimpleQuery simpleExpression; 
+non terminal ParenthesisQuery parenthesisExpression;
+non terminal CompositeQuery compositeExpression;
+non terminal QueryOperatorEnum queryOperator;
+
+
+   
+
+/* -------------------------------------Precedence and Associatively of Terminals Section----------------------------------- */
+
+precedence left RCOL, LCOL, RPAREN, LPAREN, RBRACKET, LBRACKET;
+precedence left OR; 
+precedence left AND; 
+precedence left NOT; 
+precedence left EQ, NE, GT, LT, GE, LE;
+precedence left PLUS, MINUS; 
+precedence left TIMES, DIV; 
+
+
+/* ---------------------------------------------------Grammar Section------------------------------------------------------- */
+
+/* Grammar */
+
+tlrLanguage ::=  tlrDeclaration tlrLanguage {:   :} | {:   :};
+
+
+tlrDeclaration ::= requirementsExpr {:   :} |
+           typesExpr {:   :} |
+           artifactExpr {:   :} |
+           semanticExpr {: :}  |
+           viewExpr {: :} |          
+           domainExpr {:   :} |
+           queryExpr:query {: TraceParser.getInstance().addTraceQuery(query); :};
+
+/* Requirements */
+requirementsExpr ::= REQUIREMENT NAME:requirement requirementsDescription SEMICOLON {: :};
+  requirementsDescription ::= EQ LBRACKET STRING:requirementsDescription RBRACKET {: :} | {: :};
+
+
+/* Types */
+typesExpr ::= TYPE NAME:type SEMICOLON {: :};
+
+/* Artifact */
+artifactExpr ::= ARTIFACT LPAREN  artifactDeclaration  RPAREN SEMICOLON {: :};
+
+  artifactDeclaration ::= NAME:artifactType COMMA STRING:artifactIdentifier {: :};
+
+/* Semantic */
+semanticExpr ::= SEMANTIC NAME:semantic SEMICOLON {: :};
+
+/* View */
+viewExpr ::= VIEW NAME:view SEMICOLON {: :};
+
+/* Domain */
+
+domainExpr ::= DOMAIN NAME:domainName EQ LBRACKET domainArtifactList RBRACKET SEMICOLON {: :};
+
+  domainArtifactList ::= unaryArtifact  multipleArtifacts  {: :};
+
+  multipleArtifacts ::= COMMA unaryArtifact multipleArtifacts {: :} | {: :};
+
+  unaryArtifact ::= NAME:artifactName {: :};
+
+
+/* ---------------------------------------------------Query Section------------------------------------------------------- */
+
+queryExpr ::= QUERY NAME:queryName queryParametersExpr:parameters LBRACKET queryResultExpr:expression RBRACKET 
+{:
+    RESULT = new TraceQuery(queryName, parameters, expression);
+
+:};
+
+  /* ---------------------------------------------------Query Param--------------------------------------------------- */
+
+  queryParametersExpr ::=  LPAREN unaryParameter:currentParamenter  multipleParameter:nextParameter RPAREN
+                              {: RESULT = new QueryParameterList(currentParamenter, nextParameter); :}  |   
+                           LPAREN  RPAREN 
+                              {: RESULT = QueryParameterList(); :} ;
+
+    multipleParameter ::= COMMA unaryParameter:currentParamenter multipleParameter:nextParameter 
+                            {: RESULT = new QueryParameterList(currentParamenter, nextParameter); :} |
+                            {: RESULT = null; :};
+
+    unaryParameter ::= paramType:paramType NAME:paramValue 
+                        {: RESULT = new QueryParameter(paramType, paramValue); :} ;
+
+
+    paramType ::=  REQUIREMENT {: RESULT = QueryParameterTypeEnum.REQUIREMENT; :} |
+                   SEMANTIC  {: RESULT = QueryParameterTypeEnum.SEMANTIC; :} | 
+                   TYPE  {: RESULT = QueryParameterTypeEnum.ARTIFACT_TYPE; :} |
+                   ARTIFACT  {: RESULT = QueryParameterTypeEnum.ARTIFACT; :} |
+                   DOMAIN  {: RESULT = QueryParameterTypeEnum.DOMAIN; :} |
+                   NAME {: RESULT = QueryParameterTypeEnum.DEFAULT; :};
+
+  /* ---------------------------------------------------Query Result--------------------------------------------------- */
+
+  queryResultExpr ::= RESULT queryExpression:expr SEMICOLON {: RESULT = expr; :};
+
+     queryExpression ::= 
+         simpleExpression:expr 
+            {: RESULT = expr; :} | 
+         parenthesisExpression:expr 
+            {: RESULT = expr; :} | 
+         compositeExpression:expr 
+            {: RESULT = expr; :};
+
+     simpleExpression ::= 
+          NOT NAME:value 
+              {: RESULT = new SimpleQuery (QueryOperatorEnum.NOT, value); :} | 
+          NAME:value 
+              {: RESULT = new SimpleQuery (value); :} | 
+          TIMES 
+              {: RESULT = new SimpleQuery (QueryOperatorEnum.ALL); :};
+
+     parenthesisExpression ::= 
+          LPAREN queryExpression:expr RPAREN 
+              {: RESULT = new ParenthesisQuery (expr); :};
+
+     compositeExpression ::= 
+          queryExpression:left queryOperator:op queryExpression:right 
+              {: RESULT = new CompositeQuery(left, right, op); :}; 
+
+     queryOperator ::=  AND {: RESULT = QueryOperatorEnum.AND; :} |  
+                        OR {: RESULT = QueryOperatorEnum.OR; :} ;
+

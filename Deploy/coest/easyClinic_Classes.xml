@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<artifacts_collection>
+  <collection_info>
+    <id>Class code</id>
+    <name>Class_code</name>
+    <version>1.1</version>
+    <description>Class code</description>
+  </collection_info>
+  <artifacts>
+    <artifact>
+      <id>114</id>
+      <content>GUILogin</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>115</id>
+      <content>GUIPrincipale</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>116</id>
+      <content>GUIAnagrafica</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>117</id>
+      <content>GUIPrenotazioni</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>118</id>
+      <content>GUICartellaClinica</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>119</id>
+      <content>GUIVisita</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>120</id>
+      <content>GUILogin</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>121</id>
+      <content>GUIPrincipale</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>122</id>
+      <content>GUIAnagrafica</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>123</id>
+      <content>GUIAnagraficaLaboratorio</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>124</id>
+      <content>GUIAnagraficaMedico</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>125</id>
+      <content>GUIResoconto</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>126</id>
+      <content>GUIResocontoVisite</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>127</id>
+      <content>GUIResocontoEsami</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>128</id>
+      <content>GUIResocontoPrenotazioni</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>129</id>
+      <content>GUIPianiPrenotazioni</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>130</id>
+      <content>GUITempiMedi</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>131</id>
+      <content>GUIManagement</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>132</id>
+      <content>GUILoginPaziente</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>133</id>
+      <content>GUIPaziente</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>134</id>
+      <content>GUIPrenotaVisita</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>135</id>
+      <content>GUISelezionaPrenotazione</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>136</id>
+      <content>GUIAnagraficaPaziente</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>137</id>
+      <content>GUIHospitalCard</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>138</id>
+      <content>GUIEliminaPrenotazione</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>139</id>
+      <content>GUIElencoPrenotazioni</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>140</id>
+      <content>GUIVisita</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>141</id>
+      <content>GUIEsame</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>142</id>
+      <content>OperatoreManager</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>143</id>
+      <content>PrintManager</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>144</id>
+      <content>HospitalCardManager</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>145</id>
+      <content>PazienteManager</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>146</id>
+      <content>MediciManager</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>147</id>
+      <content>LaboratoriManager
+</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>148</id>
+      <content>PrenotazioniManager</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>149</id>
+      <content>CartellaClinicaManager</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>150</id>
+      <content>VisiteManager</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>151</id>
+      <content>Person</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>152</id>
+      <content>Operator</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>153</id>
+      <content>Medical</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>154</id>
+      <content>Patient</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>155</id>
+      <content>Visit</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>156</id>
+      <content>Examination</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>157</id>
+      <content>TipoEsame</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>158</id>
+      <content>Laboratory</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>159</id>
+      <content>Booking</content>
+      <parent_id />
+    </artifact>
+    <artifact>
+      <id>160</id>
+      <content>TipoVisita</content>
+      <parent_id />
+    </artifact>
+  </artifacts>
+</artifacts_collection>

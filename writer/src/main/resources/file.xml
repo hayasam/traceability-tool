@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TraceLinks>
+    <TraceLink xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="traceLink">
+        <artifact>Java Class</artifact>
+        <artifactType>Source Code</artifactType>
+        <requirement>Req001</requirement>
+        <semantic>Overlaps</semantic>
+    </TraceLink>
+    <TraceLink xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="traceLink">
+        <artifact>Java Class</artifact>
+        <artifactType>Source Code</artifactType>
+        <requirement>Req122</requirement>
+        <semantic>Overlaps</semantic>
+    </TraceLink>
+    <TraceLink xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="traceLink">
+        <artifact>Java Class</artifact>
+        <artifactType>Source Code</artifactType>
+        <requirement>Req032</requirement>
+        <semantic>Overlaps</semantic>
+    </TraceLink>
+</TraceLinks>

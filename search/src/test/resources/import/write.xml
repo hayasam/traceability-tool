@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TraceLinks>
+    <TraceLink>
+        <requirement>Req001</requirement>
+        <semantic>Overlaps</semantic>
+        <artifactType>SourceCode</artifactType>
+        <artifact>SubscribePerson</artifact>
+    </TraceLink>
+    <TraceLink>
+        <requirement>Req001</requirement>
+        <semantic>Overlaps</semantic>
+        <artifactType>SourceCode</artifactType>
+        <artifact>EditPerson</artifact>
+    </TraceLink>
+    <TraceLink>
+        <requirement>Req002</requirement>
+        <semantic>Overlaps</semantic>
+        <artifactType>SourceCode</artifactType>
+        <artifact>EditPerson</artifact>
+    </TraceLink>
+    <TraceLink>
+        <requirement>Req001</requirement>
+        <semantic>Overlaps</semantic>
+        <artifactType>UseCase</artifactType>
+        <artifact>Subscribe Person UC</artifact>
+    </TraceLink>
+    <TraceLink>
+        <requirement>Req002</requirement>
+        <semantic>Overlaps</semantic>
+        <artifactType>UseCase</artifactType>
+        <artifact>Edit Person UC</artifact>
+    </TraceLink>
+    <TraceLink>
+        <requirement>Req002</requirement>
+        <semantic>Override</semantic>
+        <artifactType>SourceCode</artifactType>
+        <artifact>EditPerson</artifact>
+    </TraceLink>    
+</TraceLinks>
