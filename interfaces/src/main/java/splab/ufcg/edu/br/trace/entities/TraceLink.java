@@ -1,9 +1,8 @@
 package splab.ufcg.edu.br.trace.entities;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
-
-import splab.ufcg.edu.br.trace.exceptions.TraceLinkException;
  
 
 
@@ -16,7 +15,6 @@ import splab.ufcg.edu.br.trace.exceptions.TraceLinkException;
  * 
  * @author Arthur
  */
-
 public class TraceLink implements Serializable {
 
 	/**
@@ -35,13 +33,12 @@ public class TraceLink implements Serializable {
 	private List<String> requirements;
 
 	public TraceLink(){
-		
+		requirements = new ArrayList<String>();
 	}
 	
-	public TraceLink(String requirement, String semantic, String artifactType, String artifact) throws TraceLinkException {
-
+	public TraceLink(String requirement, String semantic, String artifactType, String artifact) {
+		this();
 		this.checkParameters(requirement, artifactType, artifact, semantic);
-
 		this.requirement = requirement;
 		this.artifactType = artifactType;
 		this.artifact = artifact;
@@ -50,28 +47,24 @@ public class TraceLink implements Serializable {
 
 	public TraceLink(List<String>  requirements, String semantic , String type,
 			String artifact) {
-		
+		this();
 		this.requirements = requirements;
-		
 		this.artifactType = type;
 		this.artifact = artifact;
 		this.semantic = semantic;
 	}
 
 	public void checkParameters(String requirement, String artifactType,
-			String artifact, String semantic) throws TraceLinkException,
-			TraceLinkException {
+			String artifact, String semantic)  {
 		
 		if (checkNullParameters(requirement, artifactType, artifact, semantic)) {
 			String message = this.buildExceptionMessage(requirement, artifactType, artifact, semantic, "NULL");
-			throw new TraceLinkException(message);
+			throw new RuntimeException(message);
 		}
 		if (checkEmptyParameters(requirement, artifactType, artifact, semantic)) {
 			String message = this.buildExceptionMessage(requirement, artifactType, artifact, semantic, "EMPTY");
-			throw new TraceLinkException(message);
+			throw new RuntimeException(message);
 		}
-		
-		
 	}
 
 	private boolean checkEmptyParameters(String requirement,
@@ -187,7 +180,6 @@ public class TraceLink implements Serializable {
 	public String toString()
 	{
 		StringBuilder result = new StringBuilder();
-		
 		result.append("(");
 		result.append(requirements);
 		result.append(", ");
@@ -197,14 +189,12 @@ public class TraceLink implements Serializable {
 		result.append(", ");		
 		result.append(artifact);
 		result.append(")");
-	
 		return result.toString();
 	}
 
-	public void checkParameters() throws TraceLinkException {
+	public void checkParameters() {
 		this.checkParameters(this.requirement, this.artifactType,
 				this.artifact, this.semantic);
-		
 	}
 
 	public List<String> getRequirements() {
@@ -214,7 +204,4 @@ public class TraceLink implements Serializable {
 	public void setRequirements(List<String> requirements) {
 		this.requirements = requirements;
 	}
-	
-	
-	
 }

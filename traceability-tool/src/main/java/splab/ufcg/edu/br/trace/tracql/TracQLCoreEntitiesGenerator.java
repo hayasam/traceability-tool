@@ -33,7 +33,7 @@ public class TracQLCoreEntitiesGenerator implements TLRGenerator {
 		str.append(TLR_LINE_BREAK);
 		
 		str.append(this.getRequirements(extractedTraceLinkList
-				.getRequirements()));
+				.extractRequirements()));
 		str.append(TLR_LINE_BREAK);
 
 		str.append(TLR_LINE_BREAK);

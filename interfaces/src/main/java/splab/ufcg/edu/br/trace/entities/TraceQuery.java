@@ -71,11 +71,11 @@ public class TraceQuery implements Serializable {
 		StringBuilder str = new StringBuilder();
 		str.append(this.getName());
 		if (parameters != null) {
-			str.append(System.lineSeparator());
+			str.append(System.getProperty("line.separator").toString());
 			str.append(parameters.toString());
 		}
 		if (queryExpression != null) {
-			str.append(System.lineSeparator());
+			str.append(System.getProperty("line.separator").toString());
 			str.append(queryExpression.toString());
 		}
 

@@ -30,7 +30,7 @@ public class TQLCoreEntitiesGenerator implements TLRGenerator {
 
 		
 		str.append(this.getRequirements(extractedTraceLinkList
-				.getRequirements()));
+				.extractRequirements()));
 		str.append(TLR_LINE_BREAK);
 
 		str.append(TLR_LINE_BREAK);

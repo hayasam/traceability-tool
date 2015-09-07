@@ -2,11 +2,8 @@ package splab.ufcg.edu.br.trace.entities;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 import java.util.Set;
 
 import javax.xml.bind.annotation.XmlElement;
@@ -21,8 +18,8 @@ import javax.xml.bind.annotation.XmlSeeAlso;
  * 
  * @param <TraceLink>
  */
-@XmlRootElement(name = "TraceLinks")
-@XmlSeeAlso({ splab.ufcg.edu.br.trace.entities.TraceLink.class })
+//@XmlRootElement(name = "TraceLinkList")
+//@XmlSeeAlso({ splab.ufcg.edu.br.trace.entities.TraceLink.class })
 public class TraceLinkList implements Serializable {
 
 	/**
@@ -49,7 +46,7 @@ public class TraceLinkList implements Serializable {
 		this.traceLinks = list;
 	}
 
-	@XmlElement(name = "TraceLink")
+//	@XmlElement(name = "traceLinks")
 	public List<TraceLink> getTraceLinks() {
 		return traceLinks;
 	}
@@ -111,62 +108,52 @@ public class TraceLinkList implements Serializable {
 		return true;
 	}
 
-	public Set<String> getArtifactTypes() {
+	public Set<String> extractArtifactTypes() {
 		Set<String> result = new HashSet<String>();
 
 		for (TraceLink tracelink : traceLinks) {
 			result.add(tracelink.getArtifactType());
 		}
-
 		return result;
 	}
 
-	public Set<String> getSemantics() {
+	public Set<String> extractSemantics() {
 		Set<String> result = new HashSet<String>();
-
 		for (TraceLink tracelink : traceLinks) {
 			result.add(tracelink.getSemantic());
 		}
-
 		return result;
 	}
 
-	public Set<String> getRequirements() {
+	public Set<String> extractRequirements() {
 		Set<String> result = new HashSet<String>();
 
 		for (TraceLink tracelink : traceLinks) {
-			
 			String requirement = tracelink.getRequirement();
-			
 			result.add(requirement);
-			
 		}
 
 		return result;
 	}
-	
-	
-	public Set<String> getRequirementList() {
+
+	public Set<String> extractRequirementList() {
 		Set<String> result = new HashSet<String>();
 
 		for (TraceLink tracelink : traceLinks) {
-			
-			List<String> requirements = tracelink.getRequirements();
-			
-			result.addAll(new HashSet<String>(requirements));
-			
-		}
 
+			List<String> requirements = tracelink.getRequirements();
+
+			result.addAll(new HashSet<String>(requirements));
+		}
 		return result;
 	}
-	
-	public Set<String> getArtifacts() {
+
+	public Set<String> extractArtifacts() {
 		Set<String> result = new HashSet<String>();
-		
+
 		for (TraceLink tracelink : traceLinks) {
 			result.add(tracelink.getArtifact());
 		}
-		
 		return result;
 	}
 
@@ -180,82 +167,26 @@ public class TraceLinkList implements Serializable {
 					&& semanticNode.equals(tracelink.getSemantic())
 					&& artifactTypeNode.equals(tracelink.getArtifactType())) {
 				relatedTraces.add(tracelink);
-
 			}
-
 		}
-
 		return relatedTraces;
 	}
-	
 
+	public List<TraceLink> filterByType(String artifactTypeNode) {
 
-	public List<TraceLink> filterByType( String artifactTypeNode) {
-		
 		List<TraceLink> relatedTraces = new ArrayList<TraceLink>();
 		for (TraceLink tracelink : traceLinks) {
-			
+
 			if (artifactTypeNode.equals(tracelink.getArtifactType())) {
 				relatedTraces.add(tracelink);
-				
 			}
-			
 		}
-		
+
 		return relatedTraces;
 	}
-	
+
 	public int size() {
 		return this.traceLinks.size();
-	}
-
-	public boolean isEmpty() {
-		return this.traceLinks.isEmpty();
-	}
-
-	public boolean contains(Object o) {
-		return this.traceLinks.contains(o);
-	}
-
-	public Iterator<TraceLink> iterator() {
-		return this.traceLinks.iterator();
-	}
-
-	public Object[] toArray() {
-		return this.traceLinks.toArray();
-	}
-
-	public Object[] toArray(Object[] a) {
-		return null;
-	}
-
-	public boolean add(Object e) {
-		if (e instanceof TraceLink) {
-			TraceLink tracelink = (TraceLink) e;
-			this.traceLinks.add(tracelink);
-		}
-
-		return false;
-	}
-
-	public boolean containsAll(Collection c) {
-
-		return this.traceLinks.containsAll(c);
-	}
-
-	public boolean addAll(Collection<TraceLink> c) {
-
-		return this.traceLinks.addAll(c);
-	}
-
-	public boolean addAll(int index, Collection<TraceLink> c) {
-
-		return this.traceLinks.addAll(index, c);
-	}
-
-	public boolean removeAll(Collection c) {
-
-		return this.traceLinks.removeAll(c);
 	}
 
 	public void clear() {
@@ -263,39 +194,9 @@ public class TraceLinkList implements Serializable {
 
 	}
 
-	public Object get(int index) {
-
-		return this.traceLinks.get(index);
-	}
-
-	public void add(int index, Object element) {
-		if (element instanceof TraceLink) {
-
-			this.traceLinks.add(index, (TraceLink) element);
-		}
-
-	}
-
-	public Object remove(int index) {
-
-		return this.traceLinks.remove(index);
-	}
-
-	public int indexOf(Object o) {
-
-		return this.traceLinks.indexOf(o);
-	}
-
-	public ListIterator<TraceLink> listIterator() {
-
-		return this.traceLinks.listIterator();
-	}
-
 	public void addAll(TraceLinkList traceLinksTemp) {
-		if (traceLinksTemp != null && traceLinksTemp.getTraceLinks() != null){
-			this.traceLinks.addAll(traceLinksTemp.getTraceLinks());			
+		if (traceLinksTemp != null && traceLinksTemp.getTraceLinks() != null) {
+			this.traceLinks.addAll(traceLinksTemp.getTraceLinks());
 		}
 	}
-
-	
 }

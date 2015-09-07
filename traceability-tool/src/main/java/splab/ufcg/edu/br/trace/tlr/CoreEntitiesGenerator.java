@@ -30,18 +30,19 @@ public class CoreEntitiesGenerator implements TLRGenerator {
 		StringBuilder str = new StringBuilder();
 
 		str.append(this.getRequirements(extractedTraceLinkList
-				.getRequirements()));
+				.extractRequirements()));
 		str.append(TLR_LINE_BREAK);
 
 		str.append(this.getArtifactTypes(extractedTraceLinkList
-				.getArtifactTypes()));
+				.extractArtifactTypes()));
 		str.append(TLR_LINE_BREAK);
 
-		str.append(this.getSemantics(extractedTraceLinkList.getSemantics()));
+		str.append(this.getSemantics(extractedTraceLinkList.extractSemantics()));
 		str.append(TLR_LINE_BREAK);
 
-		str.append(this.getDefaultQueries());
-		str.append(TLR_LINE_BREAK);
+		// FIXME
+//		str.append(this.getDefaultQueries());
+//		str.append(TLR_LINE_BREAK);
 
 		return str.toString();
 	}

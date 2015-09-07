@@ -1,8 +1,6 @@
 package splab.ufcg.edu.br.trace.interfaces;
 
 import splab.ufcg.edu.br.trace.entities.TraceLinkList;
-import splab.ufcg.edu.br.trace.entities.TraceQuery;
-import splab.ufcg.edu.br.trace.exceptions.QueryException;
 
 
 
@@ -21,6 +19,6 @@ public interface Searchable {
 	 * @param queryParameter
 	 * @return TraceLinkLink - containing all trace links that conforms to query parameters
 	 */
-	TraceLinkList queryTraceLinks(String query) throws QueryException;
+	TraceLinkList queryTraceLinks(String query);
 
 }

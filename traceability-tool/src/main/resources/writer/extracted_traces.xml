@@ -1,1851 +1,564 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <TraceLinks>
     <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliAgenzia.txt</artifact>
+        <artifact>GUIAnagrafica</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC1</requirement>
+        <requirement>REQ01</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBBeneCulturale.txt</artifact>
+        <artifact>GUIAnagraficaLaboratorio</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC1</requirement>
+        <requirement>REQ01</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBBeneCulturale.txt</artifact>
+        <artifact>LaboratoriManager
+</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC1</requirement>
+        <requirement>REQ01</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeniCulturali.txt</artifact>
+        <artifact>Laboratory</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC1</requirement>
+        <requirement>REQ01</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBBeneCulturale.txt</artifact>
+        <artifact>GUIAnagrafica</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC2</requirement>
+        <requirement>REQ02</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliAgenzia.txt</artifact>
+        <artifact>GUIAnagraficaLaboratorio</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC2</requirement>
+        <requirement>REQ02</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliAgenzia.txt</artifact>
+        <artifact>LaboratoriManager
+</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC2</requirement>
+        <requirement>REQ02</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/ControlloBeniCulturali.txt</artifact>
+        <artifact>Laboratory</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC2</requirement>
+        <requirement>REQ02</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanBeneCulturale.txt</artifact>
+        <artifact>GUIAnagrafica</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC2</requirement>
+        <requirement>REQ03</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeniCulturali.txt</artifact>
+        <artifact>GUIAnagraficaLaboratorio</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC2</requirement>
+        <requirement>REQ03</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBBeneCulturale.txt</artifact>
+        <artifact>LaboratoriManager
+</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC3</requirement>
+        <requirement>REQ03</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliAgenzia.txt</artifact>
+        <artifact>Laboratory</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC3</requirement>
+        <requirement>REQ03</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliAgenzia.txt</artifact>
+        <artifact>GUIAnagrafica</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC3</requirement>
+        <requirement>REQ04</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/ControlloBeniCulturali.txt</artifact>
+        <artifact>GUIAnagraficaMedico</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC3</requirement>
+        <requirement>REQ04</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanBeneCulturale.txt</artifact>
+        <artifact>MediciManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC3</requirement>
+        <requirement>REQ04</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeniCulturali.txt</artifact>
+        <artifact>Medical</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC3</requirement>
+        <requirement>REQ04</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBBeneCulturale.txt</artifact>
+        <artifact>GUIAnagrafica</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ05</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliAgenzia.txt</artifact>
+        <artifact>GUIAnagraficaMedico</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ05</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliAgenzia.txt</artifact>
+        <artifact>MediciManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ05</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/Ricerca.txt</artifact>
+        <artifact>Medical</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ05</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/RicercaStandard.txt</artifact>
+        <artifact>GUIAnagrafica</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ06</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/RicercaAvanzata.txt</artifact>
+        <artifact>GUIAnagraficaMedico</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ06</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanBeneCulturale.txt</artifact>
+        <artifact>MediciManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ06</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IRicerca.txt</artifact>
+        <artifact>Medical</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ06</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeniCulturali.txt</artifact>
+        <artifact>GUILogin</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC4</requirement>
+        <requirement>REQ07</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanBeneCulturale.txt</artifact>
+        <artifact>OperatoreManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC5</requirement>
+        <requirement>REQ07</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliComune.txt</artifact>
+        <artifact>Operator</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC5</requirement>
+        <requirement>REQ07</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliComune.txt</artifact>
+        <artifact>GUIVisita</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC5</requirement>
+        <requirement>REQ08</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeniCulturali.txt</artifact>
+        <artifact>VisiteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC5</requirement>
+        <requirement>REQ08</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBPuntoDiRistoro.txt</artifact>
+        <artifact>Visit</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC6</requirement>
+        <requirement>REQ08</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>GUIVisita</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC6</requirement>
+        <requirement>REQ09</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>VisiteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC6</requirement>
+        <requirement>REQ09</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBConvenzione.txt</artifact>
+        <artifact>Visit</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC7</requirement>
+        <requirement>REQ09</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>GUIVisita</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC7</requirement>
+        <requirement>REQ010</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>VisiteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC7</requirement>
+        <requirement>REQ010</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanConvenzione.txt</artifact>
+        <artifact>Visit</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC7</requirement>
+        <requirement>REQ010</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBPuntoDiRistoro.txt</artifact>
+        <artifact>GUIEsame</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC8</requirement>
+        <requirement>REQ011</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>VisiteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC8</requirement>
+        <requirement>REQ011</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>Examination</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC8</requirement>
+        <requirement>REQ011</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
+        <artifact>GUIEsame</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC8</requirement>
+        <requirement>REQ012</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanPuntoDiRistoro.txt</artifact>
+        <artifact>VisiteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC8</requirement>
+        <requirement>REQ012</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBPuntoDiRistoro.txt</artifact>
+        <artifact>Examination</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC9</requirement>
+        <requirement>REQ012</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>GUIEsame</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC9</requirement>
+        <requirement>REQ013</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>VisiteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC9</requirement>
+        <requirement>REQ013</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/Ricerca.txt</artifact>
+        <artifact>Examination</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC9</requirement>
+        <requirement>REQ013</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/RicercaStandard.txt</artifact>
+        <artifact>GUIPrenotaVisita</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC9</requirement>
+        <requirement>REQ014</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/RicercaAvanzata.txt</artifact>
+        <artifact>PrenotazioniManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC9</requirement>
+        <requirement>REQ014</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanPuntoDiRistoro.txt</artifact>
+        <artifact>Booking</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC9</requirement>
+        <requirement>REQ014</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IRicerca.txt</artifact>
+        <artifact>GUIPrenotaVisita</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC9</requirement>
+        <requirement>REQ015</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanPuntoDiRistoro.txt</artifact>
+        <artifact>PrenotazioniManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC10</requirement>
+        <requirement>REQ015</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroComune.txt</artifact>
+        <artifact>Booking</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC10</requirement>
+        <requirement>REQ015</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroComune.txt</artifact>
+        <artifact>GUIEliminaPrenotazione</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC10</requirement>
+        <requirement>REQ016</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBPuntoDiRistoro.txt</artifact>
+        <artifact>PrenotazioniManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC10</requirement>
+        <requirement>REQ016</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBPuntoDiRistoro.txt</artifact>
+        <artifact>Booking</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC10</requirement>
+        <requirement>REQ016</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>GUIAnagraficaPaziente</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC10</requirement>
+        <requirement>REQ017</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroAgenzia.txt</artifact>
+        <artifact>PazienteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC10</requirement>
+        <requirement>REQ017</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBConvenzione.txt</artifact>
+        <artifact>Patient</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC11</requirement>
+        <requirement>REQ017</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanConvenzione.txt</artifact>
+        <artifact>GUIAnagraficaPaziente</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC11</requirement>
+        <requirement>REQ018</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/Turisti.txt</artifact>
+        <artifact>GUIHospitalCard</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC12</requirement>
+        <requirement>REQ018</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/TuristiTableModel.txt</artifact>
+        <artifact>HospitalCardManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC12</requirement>
+        <requirement>REQ018</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanTurista.txt</artifact>
+        <artifact>PazienteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC12</requirement>
+        <requirement>REQ018</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneTuristaComune.txt</artifact>
+        <artifact>Patient</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC12</requirement>
+        <requirement>REQ018</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneTuristiAgenzia.txt</artifact>
+        <artifact>GUILoginPaziente</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC13</requirement>
+        <requirement>REQ020</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/Turisti.txt</artifact>
+        <artifact>PazienteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC13</requirement>
+        <requirement>REQ020</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBTurista.txt</artifact>
+        <artifact>Patient</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC13</requirement>
+        <requirement>REQ020</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBTurista.txt</artifact>
+        <artifact>GUICartellaClinica</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC13</requirement>
+        <requirement>REQ021</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanTurista.txt</artifact>
+        <artifact>CartellaClinicaManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC13</requirement>
+        <requirement>REQ021</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBTurista.txt</artifact>
+        <artifact>Visit</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC14</requirement>
+        <requirement>REQ021</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneTuristiAgenzia.txt</artifact>
+        <artifact>Examination</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC14</requirement>
+        <requirement>REQ021</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneTuristiAgenzia.txt</artifact>
+        <artifact>GUIPrenotazioni</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC14</requirement>
+        <requirement>REQ022</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/RicercaAvanzata.txt</artifact>
+        <artifact>PrenotazioniManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC14</requirement>
+        <requirement>REQ022</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanTurista.txt</artifact>
+        <artifact>Booking</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC14</requirement>
+        <requirement>REQ022</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBTurista.txt</artifact>
+        <artifact>GUIAnagrafica</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC15</requirement>
+        <requirement>REQ023</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneTuristiAgenzia.txt</artifact>
+        <artifact>PazienteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC15</requirement>
+        <requirement>REQ023</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneTuristiAgenzia.txt</artifact>
+        <artifact>Patient</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC15</requirement>
+        <requirement>REQ023</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
+        <artifact>GUILogin</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC15</requirement>
+        <requirement>REQ025</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanTurista.txt</artifact>
+        <artifact>PazienteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC15</requirement>
+        <requirement>REQ025</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneTuristaComune.txt</artifact>
+        <artifact>Patient</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC15</requirement>
+        <requirement>REQ025</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBTurista.txt</artifact>
+        <artifact>GUIResocontoPrenotazioni</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC16</requirement>
+        <requirement>REQ026</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneTuristiAgenzia.txt</artifact>
+        <artifact>PrenotazioniManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC16</requirement>
+        <requirement>REQ026</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneTuristiAgenzia.txt</artifact>
+        <artifact>Booking</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC16</requirement>
+        <requirement>REQ026</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanTurista.txt</artifact>
+        <artifact>GUIResocontoVisite</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC16</requirement>
+        <requirement>REQ027</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BannerNode.txt</artifact>
+        <artifact>VisiteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ027</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
+        <artifact>Visit</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ027</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IDBBanner.txt</artifact>
+        <artifact>GUIResocontoEsami</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ028</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/DBBanner.txt</artifact>
+        <artifact>VisiteManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ028</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/BeanBanner.txt</artifact>
+        <artifact>Examination</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ028</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneAdvertisement.txt</artifact>
+        <artifact>GUITempiMedi</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ029</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneAdvertisement.txt</artifact>
+        <artifact>PrenotazioniManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ029</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/GestioneAdvertisementAgenzia.txt</artifact>
+        <artifact>Booking</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ029</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/IGestioneAdvertisementAgenzia.txt</artifact>
+        <artifact>GUIPianiPrenotazioni</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ030</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
+        <artifact>PrenotazioniManager</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
+        <requirement>REQ030</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
     <TraceLink>
-        <artifact>CC/CostantiGlobali.txt</artifact>
+        <artifact>Booking</artifact>
         <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/Banner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC17</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC18</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC18</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC18</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC18</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/MessaggiErrore.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC18</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/CostantiGlobali.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/Banner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC19</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BannerNode.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/CostantiGlobali.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/Banner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC20</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBNews.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC21</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC21</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC21</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/News.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC21</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC21</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanNews.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC21</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC21</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBNews.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC22</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC22</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC22</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanNews.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC22</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC22</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBNews.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC23</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC23</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisementAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC23</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/News.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC23</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC23</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanNews.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC23</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC23</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/FeedBackTableModel.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristiAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneTuristiAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC24</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC25</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC25</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC25</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC26</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/FeedBackTableModel.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC26</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IRicerca.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC27</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBTag.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC28</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTagOperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC28</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneTagOperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC28</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/TAGTableModel.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC28</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanTag.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC28</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTagOperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC29</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTagOperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC30</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBTag.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC30</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBTag.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC30</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanTag.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC30</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBOperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC31</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/OperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC31</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBOperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC31</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBOperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC32</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/OperatoreAgenzia.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC32</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC33</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC33</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC33</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC33</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC33</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/SchedaTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC33</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IRicerca.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC34</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC34</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC34</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC34</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC34</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IAutenticazione.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC35</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC35</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC35</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanOperatorePuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC35</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IAutenticazione.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC36</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC36</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisementPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisementPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BannerDialog.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BannerNode.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC38</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisementPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisementPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BannerDialog.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BannerNode.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC39</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC40</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisementPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC40</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisementPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC40</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanBanner.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC40</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC40</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC40</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDatiAdvertisement.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC40</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBMenu.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC41</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBMenu.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC41</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBPiatto.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC41</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBPiatto.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC41</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanMenu.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC41</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPiatto.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC41</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBMenu.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC42</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBMenu.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC42</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBPiatto.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC42</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBPiatto.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC42</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanMenu.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC42</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPiatto.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC42</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC43</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC43</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/PuntiDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC43</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC43</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC43</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC43</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/PRNode.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC43</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC44</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBConvenzione.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC44</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanConvenzione.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC44</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC45</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC45</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC45</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanBeneCulturale.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC45</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBPreferenzeDiRicerca.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC46</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBPreferenzeDiRicerca.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC46</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristaComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC46</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPreferenzaDiRicerca.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC46</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC46</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC46</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC47</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC47</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC47</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC47</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristaComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC47</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/SchedaTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC47</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC47</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC48</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC48</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC48</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC48</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC48</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC49</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC49</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneBeniCulturaliComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC49</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneBeniCulturaliComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC49</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC49</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestionePuntiDiRistoroComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC49</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBVisitaBC.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC50</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC50</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC50</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloVisiteBeniCulturali.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC50</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/SitoTableModel.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC50</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC50</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanVisitaBC.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC50</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC51</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristaComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC51</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC51</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC51</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC51</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC52</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/GestioneTuristaComune.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC52</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IGestioneTuristaClient.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC52</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPreferenzeGeneriche.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC52</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC52</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBTurista.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC52</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBVisitaBC.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC53</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC53</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC53</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloVisiteBeniCulturali.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC53</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/SitoTableModel.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC53</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC53</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC54</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBVisitaBC.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC54</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBVisitaBC.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC54</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/DBVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC54</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IDBVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC54</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloVisiteBeniCulturali.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC54</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/SitoTableModel.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC54</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC54</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/ControlloDati.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC55</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanVisitaBC.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC55</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanVisitaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC55</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/Punto3DRenderer.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC56</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/Ricerca.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC56</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IRicerca.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC56</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/RicercaStandard.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC56</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/IRicerca.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC57</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/SchedaBC.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC58</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/SchedaPR.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC58</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanPuntoDiRistoro.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC58</requirement>
-        <semantic>Dependency</semantic>
-    </TraceLink>
-    <TraceLink>
-        <artifact>CC/BeanBeneCulturale.txt</artifact>
-        <artifactType>Class_code</artifactType>
-        <requirement>UC58</requirement>
+        <requirement>REQ030</requirement>
         <semantic>Dependency</semantic>
     </TraceLink>
 </TraceLinks>

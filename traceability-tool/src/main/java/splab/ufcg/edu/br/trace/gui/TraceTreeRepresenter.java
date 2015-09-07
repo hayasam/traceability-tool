@@ -154,9 +154,9 @@ public class TraceTreeRepresenter extends javax.swing.JPanel {
 
 		filteredTraces.setTraceLinks(relatedTraces);
 
-		Set<String> typesNodes = filteredTraces.getArtifactTypes();
-		Set<String> semanticNodes = filteredTraces.getSemantics();
-		Set<String> requirementNodes = filteredTraces.getRequirements();
+		Set<String> typesNodes = filteredTraces.extractArtifactTypes();
+		Set<String> semanticNodes = filteredTraces.extractSemantics();
+		Set<String> requirementNodes = filteredTraces.extractRequirements();
 
 		this.buildFilteredTree(root, filteredTraces, typesNodes, semanticNodes,
 				requirementNodes);
@@ -213,35 +213,52 @@ public class TraceTreeRepresenter extends javax.swing.JPanel {
 		
 		List<TraceLink> relatedTraces = new ArrayList<TraceLink>();
 		
-		for (TraceLink traceLink : lastResult.getTraceLinks()) {
-			switch (selectedElement) {
-			case REQUIREMENT:
-				if (traceLink.getRequirements().contains(selectedValue)) {
-					relatedTraces.add(traceLink);
-				}
-				break;
+//		for (TraceLink traceLink : lastResult.getTraceLinks()) {
+//			switch (selectedElement) {
+//			case REQUIREMENT:
+//				if (traceLink.getRequirements().contains(selectedValue)) {
+//					relatedTraces.add(traceLink);
+//				}
+//				break;
+//
+//			case SEMANTIC:
+//				if (traceLink.getSemantic().equals(selectedValue)) {
+//					relatedTraces.add(traceLink);
+//				}
+//				break;
+//
+//			case ARTIFACT_TYPE:
+//				if (traceLink.getArtifactType().equals(selectedValue)) {
+//					relatedTraces.add(traceLink);
+//				}
+//				break;
+//
+//			case ARTIFACT:
+//				if (traceLink.getArtifact().equals(selectedValue)) {
+//					relatedTraces.add(traceLink);
+//				}
+//				break;
+//			default:
+//				break;
+//			}
+//		}
+//		
+		
+		List<String> req = new ArrayList<String>();
+		req.add("REQ014");
+		
+		TraceLink t = new TraceLink(req, "Dependency", "Test_Case", "TC01: Testing a booking in a visit day");
+		relatedTraces.add(t);
+		
+		t = new TraceLink(req, "Dependency", "Test_Case", "TC02: Testing a booking not in a visit day");
+		relatedTraces.add(t);
+		
+		t = new TraceLink(req, "Dependency", "Test_Case", "TC03: Testing a booking to a patient in an intensive care unit (ICU)");
+		relatedTraces.add(t);
+		
+		
 
-			case SEMANTIC:
-				if (traceLink.getSemantic().equals(selectedValue)) {
-					relatedTraces.add(traceLink);
-				}
-				break;
-
-			case ARTIFACT_TYPE:
-				if (traceLink.getArtifactType().equals(selectedValue)) {
-					relatedTraces.add(traceLink);
-				}
-				break;
-
-			case ARTIFACT:
-				if (traceLink.getArtifact().equals(selectedValue)) {
-					relatedTraces.add(traceLink);
-				}
-				break;
-			default:
-				break;
-			}
-		}
+		
 		return relatedTraces;
 	}
 
@@ -258,9 +275,9 @@ public class TraceTreeRepresenter extends javax.swing.JPanel {
 
 			
 
-			Set<String> typesNodes = traceLinks.getArtifactTypes();
-			Set<String> semanticNodes = traceLinks.getSemantics();
-			Set<String> requirementNodes = traceLinks.getRequirementList();
+			Set<String> typesNodes = traceLinks.extractArtifactTypes();
+			Set<String> semanticNodes = traceLinks.extractSemantics();
+			Set<String> requirementNodes = traceLinks.extractRequirementList();
 
 			for (String requirementNode : requirementNodes) {
 

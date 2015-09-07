@@ -53,7 +53,7 @@ public class CompositeQuery extends QueryExpression {
 		}
 		
 		if (operator != null) {
-			str.append(System.lineSeparator());
+			str.append(System.getProperty("line.separator").toString());
 			str.append(operator.toString());
 			str.append(" ");
 		}

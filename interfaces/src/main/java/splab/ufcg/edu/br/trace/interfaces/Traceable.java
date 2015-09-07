@@ -18,7 +18,4 @@ public interface Traceable {
 	 * @return Set<TraceLink> set of traceable artifacts
 	 */
 	TraceLinkList getTraceLinks();
-	
-	
-
 }

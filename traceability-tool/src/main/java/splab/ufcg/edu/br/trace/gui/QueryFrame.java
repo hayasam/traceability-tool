@@ -9,6 +9,9 @@ package splab.ufcg.edu.br.trace.gui;
 import java.util.Map;
 import java.util.Set;
 
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
@@ -16,12 +19,7 @@ import splab.ufcg.edu.br.trace.entities.TraceLinkList;
 import splab.ufcg.edu.br.trace.entities.TraceQuery;
 import splab.ufcg.edu.br.trace.enumeration.TraceLinkElementEnum;
 import splab.ufcg.edu.br.trace.facade.TraceabilityFacade;
-import splab.ufcg.edu.br.trace.query.QueryParameter;
 import splab.ufcg.edu.br.trace.util.GUIConstants;
-
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.GroupLayout;
-import javax.swing.LayoutStyle.ComponentPlacement;
 
 /**
  * 
@@ -288,7 +286,7 @@ public class QueryFrame extends javax.swing.JFrame {
 
 		case 1:
 
-			Set<String> requirementsList = traceTreeRepresenter.getLastQueriedResult().getRequirements();
+			Set<String> requirementsList = traceTreeRepresenter.getLastQueriedResult().extractRequirements();
 
 			filterValueComboBox.setModel(new javax.swing.DefaultComboBoxModel(
 					requirementsList.toArray()));
@@ -297,7 +295,7 @@ public class QueryFrame extends javax.swing.JFrame {
 
 		case 2:
 
-			Set<String> semanticList = traceTreeRepresenter.getLastQueriedResult().getSemantics();
+			Set<String> semanticList = traceTreeRepresenter.getLastQueriedResult().extractSemantics();
 
 			filterValueComboBox.setModel(new javax.swing.DefaultComboBoxModel(
 					semanticList.toArray()));
@@ -306,7 +304,7 @@ public class QueryFrame extends javax.swing.JFrame {
 
 		case 3:
 
-			Set<String> typesList = traceTreeRepresenter.getLastQueriedResult().getArtifactTypes();
+			Set<String> typesList = traceTreeRepresenter.getLastQueriedResult().extractArtifactTypes();
 
 			filterValueComboBox.setModel(new javax.swing.DefaultComboBoxModel(
 					typesList.toArray()));
@@ -315,7 +313,7 @@ public class QueryFrame extends javax.swing.JFrame {
 
 		case 4:
 
-			Set<String> artifactsList = traceTreeRepresenter.getLastQueriedResult().getArtifacts();
+			Set<String> artifactsList = traceTreeRepresenter.getLastQueriedResult().extractArtifacts();
 
 			filterValueComboBox.setModel(new javax.swing.DefaultComboBoxModel(
 					artifactsList.toArray()));

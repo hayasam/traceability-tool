@@ -1,5 +1,6 @@
 package splab.ufcg.edu.br.trace.entities;
 
+ 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;

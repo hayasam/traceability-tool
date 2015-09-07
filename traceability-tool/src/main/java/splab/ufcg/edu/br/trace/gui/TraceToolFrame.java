@@ -7,18 +7,13 @@
 package splab.ufcg.edu.br.trace.gui;
 
 import java.awt.Font;
-import java.io.File;
-import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Properties;
 
 import org.fife.ui.rsyntaxtextarea.AbstractTokenMakerFactory;
 import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 import org.fife.ui.rsyntaxtextarea.TokenMakerFactory;
 
-import splab.ufcg.edu.br.coest.entities.MappedArtifacts;
-import splab.ufcg.edu.br.coest.writer.CoestArtifactReader;
 import splab.ufcg.edu.br.trace.entities.TraceLinkList;
 import splab.ufcg.edu.br.trace.entities.TraceQuery;
 import splab.ufcg.edu.br.trace.facade.TraceabilityFacade;
@@ -30,13 +25,6 @@ import splab.ufcg.edu.br.trace.tlr.SourceCodeGenerator;
 import splab.ufcg.edu.br.trace.tlr.TLRGenerator;
 import splab.ufcg.edu.br.trace.tlr.TestLinkGenerator;
 import splab.ufcg.edu.br.trace.tlr.UseCaseGenerator;
-import splab.ufcg.edu.br.trace.tlr.WV_CCHITCoreEntitiesGenerator;
-import splab.ufcg.edu.br.trace.tql.TQLCoreEntitiesGenerator;
-import splab.ufcg.edu.br.trace.tql.TQLSourceCodeGenerator;
-import splab.ufcg.edu.br.trace.tql.TQLTestCaseGenerator;
-import splab.ufcg.edu.br.trace.tracql.TracQLCoreEntitiesGenerator;
-import splab.ufcg.edu.br.trace.tracql.TracQLSourceCodeGenerator;
-import splab.ufcg.edu.br.trace.tracql.TracQLTestCaseGenerator;
 import splab.ufcg.edu.br.trace.util.GUIConstants;
 
 /**
@@ -432,7 +420,7 @@ public class TraceToolFrame extends javax.swing.JFrame {
 
 		this.setUTLStyle(coreTextArea);
 
-		Font font = new Font("Monaco", Font.BOLD, 11);
+		Font font = new Font("Monaco", Font.BOLD, 13);
 		coreTextArea.setFont(font);
 
 		testCaseScrollPane = new javax.swing.JScrollPane();
@@ -503,27 +491,6 @@ public class TraceToolFrame extends javax.swing.JFrame {
 
 		
 		
-		// TODO: wv_cchit
-//		CoestArtifactReader reader = new CoestArtifactReader();
-//		Properties properties = new Properties();
-//		InputStream inputStream = getClass().getResourceAsStream("/trace-tool.properties");
-//		
-//		properties.load(inputStream);
-//		
-//		String requirements = (String) properties.get("coest.requirements");
-//		String artifacts = (String) properties.get("coest.artifacts");
-//		
-//		MappedArtifacts mappedArtifacts = reader.read(new File(requirements));
-//		MappedArtifacts mappedArtifacts2 = reader.read(new File(artifacts));
-//		
-//		Map<String, String> map = mappedArtifacts.getMapIdArtifact();
-//		map.putAll(mappedArtifacts2.getMapIdArtifact());
-//		
-//		TLRGenerator core = new WV_CCHITCoreEntitiesGenerator(map,
-//				extractedTraceLinkList.getArtifactTypes(), extractedTraceLinkList.getSemantics()
-//				);
-		
-
 		TLRGenerator core = new CoreEntitiesGenerator(extractedTraceLinkList);
 		TLRGenerator testlink = new TestLinkGenerator(extractedTraceLinkList);
 		TLRGenerator sourceCode = new SourceCodeGenerator(extractedTraceLinkList);
@@ -572,11 +539,6 @@ public class TraceToolFrame extends javax.swing.JFrame {
 			}
 
 			new QueryFrame(mapQueries);
-		} catch (splab.ufcg.edu.br.trace.query.parser.ParserException ex) {
-			ex.printStackTrace();
-
-			this.buildOperationResult(GUIConstants.PARSER_ERROR_MESSAGE,
-					GUIConstants.ALERT_ICON);
 		} catch (Exception e) {
 			e.printStackTrace();
 

@@ -1,3 +1,4 @@
+
 package splab.ufcg.edu.br.trace.entities;
 
 import java.io.Serializable;

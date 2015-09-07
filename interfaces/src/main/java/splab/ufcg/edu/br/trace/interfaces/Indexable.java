@@ -3,7 +3,6 @@ package splab.ufcg.edu.br.trace.interfaces;
 import java.io.File;
 
 import splab.ufcg.edu.br.trace.entities.TraceLinkList;
-import splab.ufcg.edu.br.trace.exceptions.IndexException;
 
 
 /**
@@ -21,15 +20,15 @@ public interface Indexable {
 	 * 
 	 * @throws IndexException
 	 */
-	void indexTraceLinks(File directory) throws IndexException;
+	void indexTraceLinks(File directory);
 	
 	/**
 	 * Clear all indexed trace links into storage data service
 	 * 
 	 * @throws IndexException
 	 */
-	void clearIndexDatabase() throws IndexException;
+	void clearIndexDatabase();
 
-	void indexTraceLinks(TraceLinkList tracelinkList) throws IndexException;
+	void indexTraceLinks(TraceLinkList tracelinkList);
 
 }

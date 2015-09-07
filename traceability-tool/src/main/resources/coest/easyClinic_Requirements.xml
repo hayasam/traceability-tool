@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <artifacts_collection>
   <collection_info>
-    <id>UC</id>
+    <id>REQ0UC</id>
     <name>UC</name>
     <version>1.1</version>
     <description>Use cases</description>
   </collection_info>
   <artifacts>
     <artifact>
-      <id>1</id>
+      <id>REQ01</id>
       <content>Input anagrafica laboratory 
 It allows the operator to enter 
                  the anagrafica of a laboratory 
@@ -59,7 +59,7 @@ Operator cancels operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>10</id>
+      <id>REQ010</id>
       <content>Delete visit 
 It allows the operator to delete a 
                  Visit previously recorded 
@@ -101,7 +101,7 @@ Review
       <parent_id />
     </artifact>
     <artifact>
-      <id>11</id>
+      <id>REQ011</id>
       <content>Input examination 
 It allows the operator to record 
                  results of a examination  supported by a 
@@ -150,7 +150,7 @@ Registration
       <parent_id />
     </artifact>
     <artifact>
-      <id>12</id>
+      <id>REQ012</id>
       <content>Changing examination 
 It allows the operator to change a 
                  examination  previously recorded 
@@ -204,7 +204,7 @@ Review
       <parent_id />
     </artifact>
     <artifact>
-      <id>13</id>
+      <id>REQ013</id>
       <content>Delete examination 
 It allows the operator to delete a 
                  Visit previously recorded 
@@ -245,7 +245,7 @@ Review
       <parent_id />
     </artifact>
     <artifact>
-      <id>14</id>
+      <id>REQ014</id>
       <content>Book visit 
 It allows the operator to meet 
                  request for a booking service 
@@ -312,7 +312,7 @@ Reservations
       <parent_id />
     </artifact>
     <artifact>
-      <id>15</id>
+      <id>REQ015</id>
       <content>Changing reservation 
 It allows the operator to meet 
                  request to change a reservation 
@@ -371,7 +371,7 @@ Review
       <parent_id />
     </artifact>
     <artifact>
-      <id>16</id>
+      <id>REQ016</id>
       <content>Cancel Reservation 
 It allows the operator to meet 
                  request for annulment of a 
@@ -420,7 +420,7 @@ Review
       <parent_id />
     </artifact>
     <artifact>
-      <id>17</id>
+      <id>REQ017</id>
       <content>Changing anagrafica patient 
 It allows the operator to change 
                 the anagrafica of a patient that are 
@@ -475,7 +475,7 @@ change
       <parent_id />
     </artifact>
     <artifact>
-      <id>18</id>
+      <id>REQ018</id>
       <content>input anagrafica patient 
 It allows the operator to enter 
                  the anagrafica of a patient who contact 
@@ -534,7 +534,7 @@ insertion
       <parent_id />
     </artifact>
     <artifact>
-      <id>19</id>
+      <id>REQ019</id>
       <content>Access section patient 
 It allows access to this patient 
                  by enabling the operator to 
@@ -563,7 +563,7 @@ access to patient session
       <parent_id />
     </artifact>
     <artifact>
-      <id>2</id>
+      <id>REQ02</id>
       <content>Changing anagrafica laboratory 
 It allows the operator to change 
                 the anagrafica of a laboratory analysis 
@@ -621,7 +621,7 @@ Operator cancels operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>20</id>
+      <id>REQ020</id>
       <content>Validation patient 
 He works to perform the functions 
                 necessary to authenticate an 
@@ -669,7 +669,7 @@ Login failed
       <parent_id />
     </artifact>
     <artifact>
-      <id>21</id>
+      <id>REQ021</id>
       <content>Show clinic folder
 Allows a patient of view 
                 Clinic folder own folder using the 
@@ -737,7 +737,7 @@ details of a visit
       <parent_id />
     </artifact>
     <artifact>
-      <id>22</id>
+      <id>REQ022</id>
       <content>Show Reservations 
 Allows a patient of view 
                 The list of reservation profits 
@@ -774,7 +774,7 @@ reservations
       <parent_id />
     </artifact>
     <artifact>
-      <id>23</id>
+      <id>REQ023</id>
       <content>Show anagrafica
 Allows a patient of view 
                 their anagrafica data using the 
@@ -813,7 +813,7 @@ Information displayed
       <parent_id />
     </artifact>
     <artifact>
-      <id>24</id>
+      <id>REQ024</id>
       <content>Access Box Tower 
 Allows the patient to access a 
                 locations of internally displaced 
@@ -841,7 +841,7 @@ Includes 1 (valid patient)
       <parent_id />
     </artifact>
     <artifact>
-      <id>25</id>
+      <id>REQ025</id>
       <content>Validation patient 
 He works to perform the functions 
                 necessary to authenticate an 
@@ -876,7 +876,7 @@ Validation Failed
       <parent_id />
     </artifact>
     <artifact>
-      <id>26</id>
+      <id>REQ026</id>
       <content>Report reservations 
 It allows the operator to have a 
                  report on reservation
@@ -920,7 +920,7 @@ Operator cancels the operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>27</id>
+      <id>REQ027</id>
       <content>Report visits 
 It allows the operator to have a 
                  record visits 
@@ -971,7 +971,7 @@ Operator cancels the operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>28</id>
+      <id>REQ028</id>
       <content>Report examinations 
 It allows the operator to have a 
                  report on tests carried out in 
@@ -1011,7 +1011,7 @@ Operator cancels the operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>29</id>
+      <id>REQ029</id>
       <content>The average time of waiting 
 It allows the operator to get an estimate 
                  the average time required to serve a 
@@ -1047,7 +1047,7 @@ Operator cancels the operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>3</id>
+      <id>REQ03</id>
       <content>Delete anagrafica laboratory 
 It allows the operator to remove 
                 the anagrafica of a laboratory of
@@ -1097,7 +1097,7 @@ Operator cancels operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>30</id>
+      <id>REQ030</id>
       <content>Plans reservations 
 It allows the operator to view and / or 
                  print in tabular form plans 
@@ -1140,7 +1140,7 @@ Operator cancels the operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>4</id>
+      <id>REQ04</id>
       <content>Inserting anagrafica doctor 
 It allows the operator to input 
                 the anagrafica of a doctor who works 
@@ -1192,7 +1192,7 @@ Operator cancels operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>5</id>
+      <id>REQ05</id>
       <content>Changing  doctor anagrafica
 It allows the operator to change 
                 the anagrafica of a doctor who works 
@@ -1250,7 +1250,7 @@ Operator cancels operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>6</id>
+      <id>REQ06</id>
       <content>Delete anagrafica doctor 
 It allows the operator to delete 
                 the anagrafica of a doctor who works 
@@ -1296,7 +1296,7 @@ Operator cancels operation
       <parent_id />
     </artifact>
     <artifact>
-      <id>7</id>
+      <id>REQ07</id>
       <content>Validation operator 
 He works to perform the functions 
                 necessary to authenticate an 
@@ -1334,7 +1334,7 @@ Validation Failed
       <parent_id />
     </artifact>
     <artifact>
-      <id>8</id>
+      <id>REQ08</id>
       <content>Record visit 
 It allows the operator to record a 
                  visit held in outpatient
@@ -1397,7 +1397,7 @@ Registration
       <parent_id />
     </artifact>
     <artifact>
-      <id>9</id>
+      <id>REQ09</id>
       <content>Changing visit 
 It allows the operator to change a 
                  Visit previously recorded 

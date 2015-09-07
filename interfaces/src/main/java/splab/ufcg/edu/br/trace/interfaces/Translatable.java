@@ -19,7 +19,7 @@ public interface Translatable {
 	 *  
 	 * @return TraceLinkList - List<TraceLink> extracted trace links from file
 	 */
-	TraceLinkList read(File file) throws Exception;
+	TraceLinkList read(File file);
 
 	/**
 	 * Write set of trace links into a file 
@@ -28,10 +28,5 @@ public interface Translatable {
 	 * @param tracelinks - list of trace links to be written
 	 * 
 	 */
-	void write(File file, TraceLinkList tracelinks) throws Exception;
-	
-	
-	
-	
-
+	void write(File file, TraceLinkList tracelinks);
 }

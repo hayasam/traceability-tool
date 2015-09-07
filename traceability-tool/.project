@@ -5,10 +5,6 @@
 	<projects>
 		<project>interfaces</project>
 		<project>query-translator</project>
-		<project>writer</project>
-		<project>search</project>
-		<project>testlink</project>
-		<project>coest</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

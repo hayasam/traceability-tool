@@ -1,43 +1,39 @@
 package splab.ufcg.edu.br.trace.facade;
 
-import java.io.File;
+import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
+
 import java.io.InputStream;
 import java.io.Serializable;
+import java.net.URI;
+import java.net.URL;
 import java.util.Properties;
 
-import splab.ufcg.edu.br.coest.writer.CoestTranslator;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.client.Invocation.Builder;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.Response;
+
+import org.apache.http.HttpStatus;
+import org.codehaus.jackson.map.ObjectMapper;
+
 import splab.ufcg.edu.br.trace.entities.TraceLinkList;
-import splab.ufcg.edu.br.trace.indexer.ApacheSolrJIndexer;
-import splab.ufcg.edu.br.trace.interfaces.Indexable;
-import splab.ufcg.edu.br.trace.interfaces.Searchable;
-import splab.ufcg.edu.br.trace.interfaces.Traceable;
-import splab.ufcg.edu.br.trace.interfaces.Translatable;
-import splab.ufcg.edu.br.trace.querier.ApacheSolrJQuerier;
-import splab.ufcg.edu.br.trace.translator.TestlinkTranslator;
-import splab.ufcg.edu.br.trace.writer.TraceLinkWriter;
+import splab.ufcg.edu.br.trace.util.JsonContentTypeResponseFilter;
 
 public class TraceabilityFacade implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
-	private static final String WRITER_DIRECTORY = "writer.directory";
+	private static final String SEARCH_SERVICE = "service.searchable";
 
-	private static final String INDEXER_DIRECTORY = "indexer.directory";
+	private static final String INDEX_SERVICE = "service.indexable";
 
-	private Translatable writer;
-
-	private Searchable search;
-
-	private Indexable indexer;
-
-	private Traceable traceable;
-
-	private TraceLinkList tracelinkList;
+	private static final String TRANSLATE_SERVICE = "service.translatable";
 
 	private Properties properties;
+
+	private TraceLinkList tracelinkList;
 
 	private static TraceabilityFacade instance;
 
@@ -49,17 +45,6 @@ public class TraceabilityFacade implements Serializable {
 					"/trace-tool.properties");
 
 			this.properties.load(inputStream);
-
-
-
-			this.writer = new TraceLinkWriter();
-			this.search = new ApacheSolrJQuerier(properties);
-			this.indexer = new ApacheSolrJIndexer(properties);
-			 
-
-//			this.traceable = new TestlinkTranslator(properties);
-
-			this.traceable = new CoestTranslator(properties);
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -73,44 +58,12 @@ public class TraceabilityFacade implements Serializable {
 		return instance;
 	}
 
-	public boolean indexTraceLinks() {
-
-		try {
-
-			File directory = new File(properties.getProperty(INDEXER_DIRECTORY));
-			this.indexer.indexTraceLinks(this.tracelinkList);
-		} catch (Exception ex) {
-			ex.printStackTrace();
-
-			return false;
-		}
-
-		return true;
-	}
-
-	public boolean extractTraceLinks() {
-		try {
-
-			TraceLinkList traceLinks = this.traceable.getTraceLinks();
-
-
-			File file = new File(properties.getProperty(WRITER_DIRECTORY));
-			this.writer.write(file, traceLinks);
-			
-			this.tracelinkList = traceLinks;
-
-		} catch (Exception ex) {
-			ex.printStackTrace();
-			return false;
-		}
-		return true;
-	}
-
 	public TraceLinkList readTraceLinks() {
-	
-			return this.tracelinkList;
+		return this.tracelinkList;
+	}
 
-		
+	public TraceLinkList getTraceLinkList() {
+		return this.tracelinkList;
 	}
 
 	public TraceLinkList queryTraceLinks(String query) {
@@ -118,7 +71,24 @@ public class TraceabilityFacade implements Serializable {
 		TraceLinkList tracelinks = null;
 
 		try {
-			tracelinks = this.search.queryTraceLinks(query);
+
+			String caminho = this.properties.getProperty(SEARCH_SERVICE);
+			URL endereco;
+
+			endereco = new URL(caminho);
+
+			Client client = ClientBuilder.newClient();
+			WebTarget target;
+			target = client.target(URI.create(endereco.toExternalForm()));
+			client.register(JsonContentTypeResponseFilter.class);
+			Builder builder = target.request();
+			Entity<String> entity = Entity.json(query);
+			Response response = builder.post(entity);
+
+			if (response.getStatus() == HttpStatus.SC_OK) {
+				tracelinks = response.readEntity(TraceLinkList.class);
+			}
+
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -126,8 +96,73 @@ public class TraceabilityFacade implements Serializable {
 		return tracelinks;
 	}
 
-	public TraceLinkList getTraceLinkList() {
-		return this.tracelinkList;
+	public boolean indexTraceLinks() {
+		try {
+
+			String caminho = this.properties.getProperty(INDEX_SERVICE);
+			URL endereco;
+
+			endereco = new URL(caminho);
+
+			Client client = ClientBuilder.newClient();
+			client.register(JsonContentTypeResponseFilter.class);
+			WebTarget target;
+			target = client.target(URI.create(endereco.toExternalForm()));
+			Builder builder = target.request();
+			Entity<TraceLinkList> entity = Entity.json(this.tracelinkList);
+			Response response = builder.post(entity);
+			if (response.getStatus() != HttpStatus.SC_OK) {
+				return false;
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			return false;
+		}
+		return true;
 	}
 
+	public boolean extractTraceLinks() {
+		try {
+			String caminho = this.properties.getProperty(TRANSLATE_SERVICE);
+			URL endereco;
+
+			endereco = new URL(caminho);
+
+			Client client = ClientBuilder.newClient();
+			client.register(JsonContentTypeResponseFilter.class);
+			WebTarget target;
+			target = client.target(URI.create(endereco.toExternalForm()));
+			Builder builder = target.request();
+			Response response = builder.get();
+			if (response.getStatus() == HttpStatus.SC_OK) {
+				String responseBody = response.readEntity(String.class);
+				this.tracelinkList = new ObjectMapper().readValue(responseBody, TraceLinkList.class);
+			} else {
+				return false;
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+
+	private void writeTraceLinks() {
+		try{
+			String caminho = this.properties.getProperty(TRANSLATE_SERVICE);
+			URL endereco;
+
+			endereco = new URL(caminho);
+
+			Client client = ClientBuilder.newClient();
+			client.register(JsonContentTypeResponseFilter.class);
+			WebTarget target;
+			target = client.target(URI.create(endereco.toExternalForm()));
+			Builder builder = target.request();
+			Entity<TraceLinkList> entity = Entity.json(this.tracelinkList);
+			builder.post(entity);
+		} catch (Exception ex) {
+			throw new RuntimeException(ex);
+		}
+	}
 }
