@@ -18,8 +18,8 @@ import javax.xml.bind.annotation.XmlSeeAlso;
  * 
  * @param <TraceLink>
  */
-//@XmlRootElement(name = "TraceLinkList")
-//@XmlSeeAlso({ splab.ufcg.edu.br.trace.entities.TraceLink.class })
+@XmlRootElement(name = "TraceLinkList")
+@XmlSeeAlso({ splab.ufcg.edu.br.trace.entities.TraceLink.class })
 public class TraceLinkList implements Serializable {
 
 	/**
@@ -46,7 +46,7 @@ public class TraceLinkList implements Serializable {
 		this.traceLinks = list;
 	}
 
-//	@XmlElement(name = "traceLinks")
+	@XmlElement(name = "traceLinks")
 	public List<TraceLink> getTraceLinks() {
 		return traceLinks;
 	}

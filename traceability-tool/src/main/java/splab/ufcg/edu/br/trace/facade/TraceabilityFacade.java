@@ -137,6 +137,7 @@ public class TraceabilityFacade implements Serializable {
 			if (response.getStatus() == HttpStatus.SC_OK) {
 				String responseBody = response.readEntity(String.class);
 				this.tracelinkList = new ObjectMapper().readValue(responseBody, TraceLinkList.class);
+				this.writeTraceLinks();
 			} else {
 				return false;
 			}

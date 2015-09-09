@@ -75,6 +75,7 @@ public class CoestService implements Translatable {
 	}
 
 	public void write(TraceLinkList traceLinks) throws Exception {
+		properties.loadProperties();
 		File file = new File(properties.getWriterDirectory());
 		this.write(file, traceLinks);
 	}
