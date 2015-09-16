@@ -26,7 +26,7 @@ public class TestLinkREST {
 	public Response getTraceLinks() {
 		Response.ResponseBuilder builder = null;
 		try {
-			TraceLinkList traceLinks = null; //testLinkService.getTraceLinks();
+			TraceLinkList traceLinks = testLinkService.getTraceLinks();
 			builder = Response.ok().entity(traceLinks);
 			builder.build();
 		} catch (RuntimeException ex) {

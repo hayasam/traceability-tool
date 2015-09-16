@@ -1,4 +1,4 @@
-package br.edu.ufcg.splab.test.testlink.data;
+package br.edu.ufcg.splab.test.testlink.services;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -16,10 +16,10 @@ import org.jboss.shrinkwrap.resolver.api.maven.Maven;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import br.edu.ufcg.splab.testlink.data.RemoteDataBaseConnector;
+import br.edu.ufcg.splab.testlink.service.TestLinkService;
 
 @RunWith(Arquillian.class)
-public class RemoteDataBaseConnectorTest {
+public class TestlinkServiceTest {
 
 	@Deployment
 	public static Archive<?> createTestArchive() {
@@ -29,10 +29,10 @@ public class RemoteDataBaseConnectorTest {
         // Create deploy file    
         WebArchive war = ShrinkWrap
 				.create(WebArchive.class, "test.war")
-				.addPackages(true, "br.edu.ufcg.splab.testlink.data")
+				.addPackages(true, "br.edu.ufcg.splab.testlink", "br.edu.ufcg.splab.util")
 				.addAsWebInfResource(EmptyAsset.INSTANCE, "beans.xml")
 				.addAsResource("testlink.properties", "testlink.properties")
-				.addAsWebInfResource("testlink.properties")
+				.addAsWebInfResource("coest.properties")
 				.addAsLibraries(Maven.resolver().resolve("org.apache.httpcomponents:httpcore:4.2.2").withTransitivity().asFile())
                 .addAsLibraries(files);
 
@@ -42,20 +42,11 @@ public class RemoteDataBaseConnectorTest {
 	}
 	
 	@Inject
-	private RemoteDataBaseConnector rdbc;
-	
-	@Test
-	public void testLoadProperties() {
-		assertNotNull(rdbc.getProperties());
-		assertNotNull(rdbc.getTestlinkUsername());
-		assertNotNull(rdbc.getTestPassword());
-		assertNotNull(rdbc.getTestlinkDbname());
-		assertNotNull(rdbc.getTestlinkUrl());
-	}
-	
-	@Test
-	public void testGetConnection() {
-		assertNotNull(rdbc.getConnection());
-	}
+	private TestLinkService service;
 
+
+	@Test
+	public void testGetTraceLinks() throws Exception {
+		assertNotNull(service.read());
+	}
 }

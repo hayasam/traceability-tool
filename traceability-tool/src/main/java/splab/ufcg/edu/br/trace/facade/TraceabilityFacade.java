@@ -1,7 +1,5 @@
 package splab.ufcg.edu.br.trace.facade;
 
-import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
-
 import java.io.InputStream;
 import java.io.Serializable;
 import java.net.URI;

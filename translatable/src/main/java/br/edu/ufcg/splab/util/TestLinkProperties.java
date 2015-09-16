@@ -9,6 +9,8 @@ public class TestLinkProperties {
 	protected Properties properties;
 
 	protected static final String WRITER_DIRECTORY = "writer.directory";
+	
+	protected static final String READER_DIRECTORY = "reader.directory";
 
 	protected void checkProperties() {
 		if (this.properties == null) {
@@ -30,5 +32,10 @@ public class TestLinkProperties {
 	public String getWriterDirectory() {
 		this.checkProperties();
 		return properties.getProperty(WRITER_DIRECTORY);
+	}
+	
+	public String getReaderDirectory() {
+		this.checkProperties();
+		return properties.getProperty(READER_DIRECTORY);
 	}
 }
